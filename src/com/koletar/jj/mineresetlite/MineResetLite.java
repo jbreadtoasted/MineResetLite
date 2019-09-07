@@ -189,7 +189,7 @@ public class MineResetLite extends JavaPlugin {
     public Material matchMaterial(String name) {
         //If anyone can think of a more elegant way to serve this function, let me know. ~jj
         if (name.equalsIgnoreCase("diamondore")) {
-            return Material.DIAMOND_ORE;
+            return Material.diamond_ore;
         } else if (name.equalsIgnoreCase("diamondblock")) {
             return Material.DIAMOND_BLOCK;
         } else if (name.equalsIgnoreCase("ironore")) {
